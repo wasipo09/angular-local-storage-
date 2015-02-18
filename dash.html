@@ -1,17 +1,17 @@
 <!DOCTYPE html>
-<html lang="" ng-app="testApp" ng-controller="dashController as dash">
+<html lang="" ng-app="testApp" ng-controller="dashboardController as dash">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <title>Dashboard</title>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <title>Dashboard</title>
 </head>
 
 <body>
-    <h1>Dashboard</h1>
-    <p ng-bind="dash.text"></p>
-    <button ng-click="dash.send()">Load</button>
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.13/angular.min.js"></script>
-    <script src="app.js"></script>
+   <h1>Dashboard</h1>
+   <p ng-bind="dash.helloMessage"></p>
+   <button ng-click="dash.logout()">Logout</button>
+   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.13/angular.min.js"></script>
+   <script src="app.js"></script>
 </body>
 </html>
